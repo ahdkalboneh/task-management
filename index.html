@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Task management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1> My Tasks </h1>
+        <p> Organize Your tasks.</p>
+        <hr>
+        <form id="task-form">
+            <label for="task">Add a new task</label>
+            <input type="text" id="task" name="task" placeholder="Enter a task name...">
+            <button type="submit" id="addTask"> + Add Task </button>
+        </form>
+        <hr>
+        <div class="headers">
+        <p> Your tasks</p>
+        <p id="counter">  </p>
+        </div>
+        <div class="filters">
+            <button class="filter active"> All </button>
+            <button class="filter"> Active </button>
+            <button class="filter"> Completed </button>
+        </div>
+        <div id="added-tasks">
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
